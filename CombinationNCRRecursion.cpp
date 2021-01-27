@@ -16,7 +16,7 @@ int factNCR(int n,int r)
 	return num/den;
 }
 
-//Combination using Recursion
+//Combination using Recursion (using Pascal's Triangle) 
 int recurNCR(int n,int r)
 {
 	if(n==r || r==0)
